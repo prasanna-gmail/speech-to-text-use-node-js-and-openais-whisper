@@ -6,7 +6,8 @@ const ffmpegPath = require("@ffmpeg-installer/ffmpeg").path;
 
 const { Configuration, OpenAIApi } = require("openai");
 const configuration = new Configuration({
-    apiKey: "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",
+    apiKey: "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",
+    // apiKey: "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",
 });
 const openai = new OpenAIApi(configuration);
 ffmpeg.setFfmpegPath(ffmpegPath);
